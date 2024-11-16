@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(44, 30, 30);
+}
+.contenedor{
+width: 100%;
+background-color: rgb(115, 255, 0);
+margin: auto;
+
+}
+.superior{
+    background-color: rgb(122, 192, 126);
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 450px;
+    padding: 10px;
+}
+
+/*Estilos del menu*/
+.menu{
+    float: left;
+    padding: 28px;
+    border-radius: 10px; /* Bordes redondeados */
+}
+.opciones li{
+    float: left;
+    list-style: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+.opciones li a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+}
+.opciones li a:hover{
+    color: rgb(1, 26, 255);
+    cursor: pointer;
+}
+/*cuerpo*/
+.tema{
+    background-color: black
+    
+}
+.tema {
+    color: white;
+    list-style: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.tema h3{
+    color: white;
+}
+
+.cuerpo{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+    
+.parte1{
+    float: right;
+    width: 400px ;
+    margin: 10px;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.info1{
+    float: left;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.piePagina{
+    background-color: rgb(136, 228, 171);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.piePagina p{
+    padding: 10px;
+    color: rgb(3, 41, 8);
+    font-size: 15px;
+    text-align: center;
+}
+.cuerpo p{
+    color: rgb(229, 240, 229);
+    padding: 15;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.cuerpo h3{
+    color: white;
+}
+ /* Estilo para hacer el carrusel más grande */
+ .carousel-large {
+    max-width: 100%; /* Ancho máximo del carrusel */
+    height: 500px; /* Ajusta la altura del carrusel */
+}
+
+/* Asegura que las imágenes del carrusel ocupen todo el espacio disponible */
+.carousel-large img {
+    width: 50%; /* Asegura que las imágenes llenen el ancho */
+    height: 100%; /* Asegura que las imágenes llenen el alto */
+    object-fit: cover; /* Recorta la imagen para que se ajuste bien sin distorsionarse */
+}
+
+/* Estilos para el banner */
+.banner {
+    width: 100%;         /* El banner ocupa todo el ancho de la pantalla */
+    height: 400px;       /* Altura del banner */
+    background-image: url('https://www.stabilus.com/media/default/_processed_/c/f/csm_Stabilus_Renewable-Energy_SG_EC_Visual_RGB-XL_d13d4c81ba.jpg'); /* Imagen de fondo del banner */
+    background-size: cover; /* La imagen cubre todo el espacio del banner */
+    background-position: center; /* Centra la imagen dentro del banner */
+    display: flex;        /* Flexbox para centrar el contenido */
+    align-items: center;  /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    color: rgb(4, 51, 0);         /* Texto en blanco */
+    font-size: 2rem;      /* Tamaño de fuente grande */
+    text-align: center;   /* Centrar el texto */
+}
+
+.banner1 {
+    width: 100%;         /* El banner ocupa todo el ancho de la pantalla */
+    height: 350px;       /* Altura del banner */
+    background-image: url('https://www.labe.unal.edu.co/images/banner-contacto.jpg'); /* Imagen de fondo del banner del contacto */
+    background-size: cover; /* La imagen cubre todo el espacio del banner */
+    background-position: center; /* Centra la imagen dentro del banner */
+    display: flex;        /* Flexbox para centrar el contenido */
+    align-items: center;  /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    color: rgb(4, 51, 0);         /* Texto en blanco */
+    font-size: 2rem;      /* Tamaño de fuente grande */
+    text-align: center;   /* Centrar el texto */
+}
+ 
+
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+
+
+    .portfolio-item img {
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .portfolio-item:hover img {
+        transform: scale(1.1);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    .portfolio-item .description {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: #333;
+        margin-top: 10px;
+    }
+    
+    /*REDES SOCIALES*/
+
+    .social-links a {
+        text-decoration: none;
+        color: #333;
+        font-size: 20px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    .social-links a i {
+        margin-right: 5px;
+        color: #1244ce; /* Puedes cambiar el color del ícono */
+        font-size: 45px;
+    }
+
+    /*
+    .contact-info, .social-links {
+        margin-bottom: 20px;
+    }
+    
+    .contact-info a, .social-links a {
+        text-decoration: none;
+        color: #333;
+        font-size: 20px;
+        display: inline-block;
+        margin: 5px 0;
+    }
+    
+    .contact-info a i, .social-links a i {
+        margin-right: 8px;
+        color: #0077b5;
+        font-size: 20px;
+    }
+    */
